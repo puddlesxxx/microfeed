@@ -45,6 +45,7 @@ export default class AdminWholeHtml extends React.Component {
         type="application/json"
         dangerouslySetInnerHTML={{__html: escapeHtml(JSON.stringify(onboardingResult))}}
       />}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/skeleton-css@2/css/normalize.css,npm/skeleton-css@2/css/skeleton.css"/>
       </body>
       </html>
     );
